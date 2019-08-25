@@ -14,6 +14,7 @@ classes = [
     'Stab'
 ]
 
+model = leukemia_cnn.ambil_model()
 img = plt.imread('Limfoblas.jpg')
 test_img = np.array(img)
 
